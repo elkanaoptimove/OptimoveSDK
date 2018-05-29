@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "OptimoveSDK1"
+  s.name         = "OptimoveSDK"
   s.version      = "0.0.1"
   s.summary      = "Optimove SDK for Analytics and push notifications."
 
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   This Pod includes the Optimove framework for reporting events and receive optimove push notifications
                    DESC
 
-  s.homepage     = "http://EXAMPLE/OptimoveSDK"
+  s.homepage     = "https://github.com/elkanaoptimove/OptimoveSDK"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -82,7 +82,7 @@ Pod::Spec.new do |s|
   #
 
   #s.source       = { :git => "http://EXAMPLE/OptimoveSDK.git", :tag => "#{s.version}" }
-  s.source       = { :path => '.' }
+  s.source       = { :git => 'https://github.com/elkanaoptimove/OptimoveSDK.git', :tag => s.version.to_s }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -93,7 +93,7 @@ Pod::Spec.new do |s|
   #
 
   #s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.source_files = "ThreeRingControl", "ThreeRingControl/**/*.{h,m,swift}"
+  s.source_files = 'OptimoveSDK/**/*'
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
