@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "OptimoveSDK"
-  s.version      = "0.2.6"
+  s.version      = "0.2.7"
   s.summary      = "Optimove SDK for Analytics and push notifications."
 
   # This description is used to generate tags and improve search results.
@@ -92,8 +92,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "OptimoveSDK/**/*.{h,m}"
+  #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
